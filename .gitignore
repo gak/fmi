@@ -1,4 +1,5 @@
 build/
 dist/
 fmi.egg-info/
-
+*.pyc
+*.pyo

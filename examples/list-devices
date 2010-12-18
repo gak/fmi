@@ -16,9 +16,9 @@ def main():
         
     # fetch last positions
     print('Fetching devices...')
-    latest = fmi.devices()
+    devices = fmi.devices()
 
-    for device in latest['content']:
+    for device in devices['content']:
         print device['name'], '-',
         if not device['location']:
             print 'No location found'
