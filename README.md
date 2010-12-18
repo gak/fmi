@@ -1,9 +1,11 @@
-# fmi
+fmi
+===
 
 A small Python library to fetch location information from the "Find My iPhone"
 service on MobileMe.
 
-## Example
+Example
+-------
 
     from fmi import FMI
         
@@ -26,11 +28,13 @@ output is:
     Batman's iPhone - 151.204420924 -33.85947118
     Batman’s iPad - No location found
 
-## Notes
+Notes
+-----
 
 This is a quick hack right now, but might slowly improve over time.
 
-## Bugs
+Bugs
+----
 
 The domain changes (when calling devices) and there is no detection for it yet.
 This means it might be completely broken for you. A fix is coming soon.
