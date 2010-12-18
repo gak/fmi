@@ -15,7 +15,7 @@ setup(
     keywords = 'iphone findmyiphone me.com mobileme',
     url = 'http://slowchop.com/',
     packages=['fmi'],
-    long_description=read('README'),
+    long_description=read('README.md'),
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Topic :: Utilities',
