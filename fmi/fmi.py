@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+__version__ = '0.0.2'
+
 import json
 import urllib
 import mechanize
@@ -23,6 +25,9 @@ class FMI:
         r = self.br.submit()
     
     def devices(self, locate=None):
+
+        # XXX: The 'p02' bit has changed on me in the past. Need to
+        # automatically detect the domain
         url = 'https://p02-fmipweb.me.com/fmipservice/client/refreshClient'
 
         d = {
